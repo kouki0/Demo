@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta
+	http-equiv="X-UA-Compatible"
+	content="IE=edge"
+/>
+<meta
+	name="viewport"
+	content="width=device-width, initial-scale=1.0"
+/>
+<meta charset="UTF-8">
+<script src="test-resources/sap/ushell/bootstrap/standalone.js"></script>
+<title>Approve Purchase Orders</title>
+<script
+	id="sap-ui-bootstrap"
+	type="text/javascript"
+	src="resources/sap-ui-core.js"
+	data-sap-ui-libs="sap.m, sap.me"
+	data-sap-ui-theme="sap_bluecrystal"
+	data-sap-ui-xx-bindingSyntax="complex"
+	data-sap-ui-resourceroots='{"ui.s2p.mm.purchorder.approve": "./"}'
+>
+	
+</script>
+<!-- Application launch configuration -->
+<script type="text/javascript">
+	sap.ui.getCore().attachInitEvent(function() {
+		var oComponentContainer = new sap.ui.core.ComponentContainer({
+			height : "100%",
+			name : "ui.s2p.mm.purchorder.approve"
+		});
+		oComponentContainer.placeAt("content");
+	});
+</script>
+</head>
+<!-- UI Content -->
+<body
+	class="sapUiBody"
+	id="content"
+	role="application"
+>
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "run": [
+    {
+      "filePath": "/Demo/noShellIndex.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "FIORI_BACKEND",
+          "destinations": "FIORI_BACKEND"
+        },
+        {
+          "source": "trial_usage_tracking",
+          "destinations": "trial_usage_tracking"
+        }
+      ],
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 2983696,
+        "displayName": "New Web Application 2"
+      }
+    },
+    {
+      "filePath": "/uis2pmmpurchorderapprove1/noShellIndex.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "FIORI_BACKEND",
+          "destinations": "FIORI_BACKEND"
+        },
+        {
+          "source": "trial_usage_tracking",
+          "destinations": "trial_usage_tracking"
+        }
+      ],
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 9182013,
+        "displayName": "New Web Application 1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "welcomeFile": "noShellIndex.html",
+  "ui5CacheBuster": true,
+  "securityConstraints": [
+    {
+      "permission": "Read",
+      "protectedPaths": [
+        "/"
+      ]
+    }
+  ],
+  "cacheControl": [
+    {
+      "directive": "public",
+      "maxAge": 86400
+    }
+  ],
+  "routes": [
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "version": "1.28.16",
+        "preferLocal": true,
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/sap/public/bc/themes/UI5",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "version": "1.28.16",
+        "preferLocal": true,
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Themes"
+    },
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "FIORI_BACKEND",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "OData services backend"
+    },
+    {
+      "path": "/collectUsageStats",
+      "target": {
+        "type": "destination",
+        "name": "trial_usage_tracking",
+        "resolutionType": "localAccount"
+      },
+      "description": "FLP API for trial usage tracking"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    }
+  ]
+}
